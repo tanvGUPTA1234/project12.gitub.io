@@ -1,0 +1,45 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    background-attachment: scroll;
+    background-attachment: inherit;
+}
+
+.text {
+    background-color: bisque;
+    text-transform: uppercase;
+    display: flex;
+    justify-content: center;
+    text-align: center;
+    align-items: center;
+}
+
+.logo {
+    flex-grow: 1;
+}
+
+.menu {
+    flex-grow: 8;
+    padding: 10px;
+}
+
+a {
+    text-decoration: none;
+    color: whitesmoke;
+    font-weight: bold;
+    padding: 12px;
+}
+
+a:hover {
+    color: blue;
+    background-color: aqua;
+}
+
+.header {
+    margin-top: 20px;
+    padding-top: 30px;
+}
